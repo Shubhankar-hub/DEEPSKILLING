@@ -34,18 +34,18 @@ public class SearchDemo {
     public static void main(String[] args) {
         // Sample products (unsorted for linear search)
         Product[] linearSearchProducts = {
-            new Product(101, "Laptop", "Electronics"),
-            new Product(203, "Blender", "Kitchen"),
-            new Product(145, "Smartphone", "Electronics"),
-            new Product(567, "Desk Chair", "Furniture")
+            new Product(101, "Headphones", "Electronics"),
+            new Product(203, "Knife", "Kitchen"),
+            new Product(145, "AC", "Electronics"),
+            new Product(567, "Table", "Furniture")
         };
 
         // Sample products sorted by ID for binary search
         Product[] binarySearchProducts = {
-            new Product(101, "Laptop", "Electronics"),
-            new Product(145, "Smartphone", "Electronics"),
-            new Product(203, "Blender", "Kitchen"),
-            new Product(567, "Desk Chair", "Furniture")
+            new Product(101, "Headphones", "Electronics"),
+            new Product(145, "AC", "Electronics"),
+            new Product(203, "Knife", "Kitchen"),
+            new Product(567, "Table", "Furniture")
         };
 
         // Test searches
